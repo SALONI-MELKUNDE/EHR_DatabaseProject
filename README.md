@@ -6,12 +6,12 @@ This project demonstrates how to manage healthcare-related data (Electronic Heal
 ---
 
 ## Table of Contents
-1. [Project Overview]
-2. [Folder Structure]
-3. [MySQL Queries]
-4. [MongoDB Queries]
-5. [How to Use]
-6. [License]
+1. Project Overview
+2. Folder Structure
+3. MySQL Queries
+4. MongoDB Queries
+5. How to Use
+6. License
 
 ---
 
