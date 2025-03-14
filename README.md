@@ -82,7 +82,7 @@ Inside **Mongodb_project.zip**, you will find:
 ## MongoDB Queries
 
 The MongoDB queries cover:
-- **CRUD Operations**: Insert, find, update, and delete documents in collections such as `patients`, `prescriptions`, and `vitals`.
+- **CRUD Operations**: Insert, find, update, and delete documents in collections such as `patients`, and `doctor`.
 - **Aggregation Pipelines**: Demonstrates how to perform more complex data processing directly in MongoDB.
 - **Indexing**: Shows how to create indexes for faster queries on large datasets.
 - **Schema Design Examples**: Illustrates storing nested documents and references that might mirror EHR data structures.
@@ -92,17 +92,17 @@ The MongoDB queries cover:
 ## How to Use
 
 ### MySQL
-1. **Setup a Database**: Create a new MySQL database (e.g., `ehr_db`).
+1. **Setup a Database**: Create a new MySQL database (e.g., `ehr_portal`).
 2. **Run the Scripts**:  
    - Open each `.sql` file in MySQL Workbench (or any SQL client).  
-   - Execute them in the logical order (e.g., create tables first, then run insert queries, then stored procedures).
+   - Execute them in the logical order (e.g.,create/use database, create tables first, then run insert queries, then stored procedures, then run select/update/delete quries).
 3. **Verify**: Check that all tables, data, and stored procedures are created successfully.
 
 ### MongoDB
 1. **Start MongoDB**: Ensure your MongoDB server is running locally or remotely.
 2. **Import or Run Scripts**:  
-   - Use the Mongo Shell or MongoDB Compass to execute the queries from the `Mongodb_project.zip`.
-   - Adjust any database or collection names if needed.
+   - Use the Mongo Shell or MongoDB Compass to execute the queries from the `Mongodb_project.zip`. The query conssist of following;
+     creates MongoDB database named 'ehr_portal_mongo', creates collection/table 'patient_data_tabel' & 'doctor_data_table'. And insert the corresponding values from SQL  
 3. **Test**: Verify that the collections are created and the sample data is inserted correctly.
 
 ---
