@@ -65,14 +65,14 @@ Inside **Mongodb_project.zip**, you will find:
 ## MySQL Queries
 
 1. **CRUD Operations**  
-   - Basic Create, Read, Update, and Delete statements for core tables such as patients, prescriptions, vitals, etc.
+   - Basic Create, Read, Update, and Delete statements for core tables such as doctor, patients, prescriptions, vitals, and appoinments.
 
 2. **Stored Procedures**  
    - **Vitals Procedure**: Demonstrates how to store and retrieve patient vitals data.
-   - **Prescription Procedure**: Shows how to handle prescription-related data (medications, dosages, etc.).
+   - **Prescription Procedure**: Shows how to handle prescription-related data (medications). 
 
 3. **Insert Combinations**  
-   - Various SQL INSERT queries that populate multiple tables with sample data, ensuring referential integrity.
+   - Various SQL INSERT queries that insert values in these tables with sample data, ensuring referential integrity.
 
 4. **JOIN Queries**  
    - Examples of different JOIN types (INNER, LEFT) to retrieve combined data from multiple tables.
@@ -85,9 +85,8 @@ Inside **Mongodb_project.zip**, you will find:
 ## MongoDB Queries
 
 The MongoDB queries cover:
-- **CRUD Operations**: Insert, find, update, and delete documents in collections such as `patients`, and `doctor`.
-- **Aggregation Pipelines**: Demonstrates how to perform more complex data processing directly in MongoDB.
-- **Indexing**: Shows how to create indexes for faster queries on large datasets.
+- **CRUD Operations**: Insert, find, update, and delete documents in collections such as `patient_data_table`, and `doctor_data_table`.
+- **Aggregation Pipelines**: Demonstrates how to perform lookup/aggregation operation between this two collections/tables.
 - **Schema Design Examples**: Illustrates storing nested documents and references that might mirror EHR data structures.
 
 ---
@@ -98,16 +97,18 @@ The MongoDB queries cover:
 1. **Setup a Database**: Create a new MySQL database (e.g., `ehr_portal`).
 2. **Run the Scripts**:  
    - Open each `.sql` file in MySQL Workbench (or any SQL client).  
-   - Execute them in the logical order (e.g.,create/use database, create tables first, then run insert queries, then stored procedures, then run select/update/delete quries).
+   - Execute them in the logical order (e.g., create/use the database, create tables first, then run insert queries, then stored procedures, then run select/update/delete queries).
 3. **Verify**: Check that all tables, data, and stored procedures are created successfully.
 
 ### MongoDB
 1. **Start MongoDB**: Ensure your MongoDB server is running locally or remotely.
 2. **Import or Run Scripts**:  
-   - Use the Mongo Shell or MongoDB Compass to execute the queries from the `Mongodb_project.zip`. The query conssist of following;
-     creates MongoDB database named 'ehr_portal_mongo', creates collection/table 'patient_data_tabel' & 'doctor_data_table'.
-     And insert the corresponding values from SQL database for patient & doctor and upload associated medical report file and link it to data.
-     The patient & doctor collection/table are connecetd by date_of_visit & time_of_visit using lookup and aggregation function.
+   - Use the Mongo Shell or MongoDB Compass to execute the queries from the `Mongodb_project.zip`. The queries consist of the following:
+     - Create a MongoDB database named `ehr_portal_mongo`.
+     - Create collections/tables named `patient_data_table` and `doctor_data_table`.
+     - Insert the corresponding values from the SQL database for patients and doctors.
+     - Upload the associated medical report file and link it to the data.
+     - Connect the patient and doctor collections/tables by `date_of_visit` and `time_of_visit` using lookup and aggregation functions.
 3. **Test**: Verify that the collections are created and the sample data is inserted correctly.
 
 ---
