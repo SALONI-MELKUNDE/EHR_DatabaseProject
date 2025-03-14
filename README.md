@@ -118,7 +118,7 @@ The MongoDB queries cover:
 
 ## License
 
-This project is licensed under the terms specified in the [LICENSE](./LICENSE) file. Feel free to modify and distribute as per the license conditions.
+This project is licensed under the MIT License. (Include or reference the actual LICENSE file in my repository.)
 
 ---
 
