@@ -102,7 +102,9 @@ The MongoDB queries cover:
 1. **Start MongoDB**: Ensure your MongoDB server is running locally or remotely.
 2. **Import or Run Scripts**:  
    - Use the Mongo Shell or MongoDB Compass to execute the queries from the `Mongodb_project.zip`. The query conssist of following;
-     creates MongoDB database named 'ehr_portal_mongo', creates collection/table 'patient_data_tabel' & 'doctor_data_table'. And insert the corresponding values from SQL  
+     creates MongoDB database named 'ehr_portal_mongo', creates collection/table 'patient_data_tabel' & 'doctor_data_table'.
+     And insert the corresponding values from SQL database for patient & doctor and upload associated medical report file and link it to data.
+     The patient & doctor collection/table are connecetd by date_of_visit & time_of_visit using lookup and aggregation function.
 3. **Test**: Verify that the collections are created and the sample data is inserted correctly.
 
 ---
