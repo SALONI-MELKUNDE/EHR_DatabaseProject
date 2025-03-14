@@ -58,7 +58,7 @@ Inside **MySQL Queries.zip**, you will find:
 
    
 Inside **Mongodb_project.zip**, you will find:
-- MongoDB scripts (CRUD operations, indexing, aggregation, etc.) related to the same EHR context.
+- MongoDB scripts (CRUD operations, and aggregation) related to the same EHR context.
 
 ---
 
