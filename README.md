@@ -6,12 +6,12 @@ This project demonstrates how to manage healthcare-related data (Electronic Heal
 ---
 
 ## Table of Contents
-1. [Project Overview](#project-overview)
-2. [Folder Structure](#folder-structure)
-3. [MySQL Queries](#mysql-queries)
-4. [MongoDB Queries](#mongodb-queries)
-5. [How to Use](#how-to-use)
-6. [License](#license)
+1. [Project Overview]
+2. [Folder Structure]
+3. [MySQL Queries]
+4. [MongoDB Queries]
+5. [How to Use]
+6. [License]
 
 ---
 
@@ -72,7 +72,7 @@ Inside **Mongodb_project.zip**, you will find:
    - Various SQL INSERT queries that populate multiple tables with sample data, ensuring referential integrity.
 
 4. **JOIN Queries**  
-   - Examples of different JOIN types (INNER, LEFT, RIGHT) to retrieve combined data from multiple tables.
+   - Examples of different JOIN types (INNER, LEFT) to retrieve combined data from multiple tables.
 
 5. **Transaction Queries**  
    - Illustrates how to manage atomic operations using `START TRANSACTION`, `COMMIT`, and `ROLLBACK` to ensure data consistency.
