@@ -49,12 +49,12 @@ EHR_DatabaseProject/
 
 
 Inside **MySQL Queries.zip**, you will find:
-1. SQL Queries CRUD Operations (Adv.Database).sql**  
-2. Stored procedure_Self Vitals record data table.sql**  
-3. Stored procedure_prescription_data table.sql**  
-4. Other Combinations of Insert SQL Queries.sql**  
-5. JOIN SQL Query.sql**  
-6. Transaction Operation SQL Queries.sql**
+1. SQL Queries CRUD Operations (Adv.Database).sql
+2. Stored procedure_Self Vitals record data table.sql
+3. Stored procedure_prescription_data table.sql 
+4. Other Combinations of Insert SQL Queries.sql  
+5. JOIN SQL Query.sql
+6. Transaction Operation SQL Queries.sql
 
    
 Inside **Mongodb_project.zip**, you will find:
