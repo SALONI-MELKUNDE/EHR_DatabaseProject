@@ -62,7 +62,7 @@ Inside **Mongodb_project.zip**, you will find:
 
 ---
 
-## MySQL Queries
+## MySQL Queries 🐬
 
 1. **CRUD Operations**  
    - Basic Create, Read, Update, and Delete statements for core tables such as doctor, patients, prescriptions, vitals, and appoinments.
@@ -82,7 +82,7 @@ Inside **Mongodb_project.zip**, you will find:
 
 ---
 
-## MongoDB Queries
+## MongoDB Queries 🍃
 
 The MongoDB queries cover:
 - **CRUD Operations**: Insert, find, update, and delete documents in collections such as `patient_data_table`, and `doctor_data_table`.
@@ -91,7 +91,7 @@ The MongoDB queries cover:
 
 ---
 
-## How to Use
+## How to Use 💡
 
 ### MySQL
 1. **Setup a Database**: Create a new MySQL database (e.g., `ehr_portal`).
@@ -113,13 +113,13 @@ The MongoDB queries cover:
 
 ---
 
-## License
+## License 📜
 
 This project is licensed under the MIT License. (Include or reference the actual LICENSE file in my repository.)
 
 ---
 
-**Thank you for exploring the EHR_DatabaseProject!**  
+**Thank you for exploring the EHR_DatabaseProject!**  🎉🤝 
 If you have any questions or suggestions, feel free to open an issue or reach out.
 
 
