@@ -1,11 +1,11 @@
 
-# EHR_DatabaseProject
+# EHR_DatabaseProject 🏥🩺💉
 
 This project demonstrates how to manage healthcare-related data (Electronic Health Records) using both **structured** (MySQL) and **non-structured** (MongoDB) databases. It includes various SQL queries, stored procedures, and MongoDB operations to illustrate real-world scenarios such as CRUD operations, handling transactions, working with joins, and more.
 
 ---
 
-## Table of Contents
+## Table of Contents 👁️📌
 
 1. [Project Overview](#project-overview)
 2. [Folder Structure](#folder-structure)
@@ -17,7 +17,7 @@ This project demonstrates how to manage healthcare-related data (Electronic Heal
 
 ---
 
-## Project Overview
+## Project Overview 🌐
 - **Objective**: Provide a sample Electronic Health Record (EHR) database setup with operations in both MySQL and MongoDB.
 - **Scope**: Showcases fundamental and advanced database features:
   - **MySQL**: CRUD operations, stored procedures, joins, transactions, and various insert queries.
@@ -27,7 +27,7 @@ The primary goal is to give an example of how healthcare systems can store and m
 
 ---
 
-## Folder Structure
+## Folder Structure 🗂️
 
 ```text
 EHR_DatabaseProject/
